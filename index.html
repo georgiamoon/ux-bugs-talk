@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>ux bugs</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="presentations/tools/reveal.js-master/css/reveal.min.css">
+		<link rel="stylesheet" href="presentations/tools/reveal.js-master/css/theme/night2.css" id="theme">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section>
+					<h2>how to write good UX bugs</h2>
+					<h3><em>or how designers & users can contribute to open source!</em></h3>
+				</section>
+
+				<section>
+					<section>
+						<h2>what is a bug?</h2>
+					</section>
+					<section data-background-transition="slide" data-background="imgs/ladybug2.jpg"> 
+						<!-- lady bug image -->
+						<h3>1: an insect!</h3>
+						<br />
+						<h3>2: a flaw in software</h3>
+					</section>
+					<section data-background-transition="slide" data-background="imgs/code.jpg" style="background: #666666">
+						<!-- CODE image -->
+						<h3>usually people are talking about bugs in the code...</h3>
+					</section>
+					<section data-background-transition="slide" data-background="imgs/stickies.jpg" style="background: #666666">
+						<!-- user flow / design bug image -->
+						<h3>but they can also be about things that don't make sense to users!</h3>
+					</section>
+					<section data-background-transition="slide" data-background="imgs/stickies.jpg" style="background: #666666">
+						<!-- user flow / design bug image -->
+						<h3>
+						such as...
+						<br /><br />
+						<ul>
+							<li>mismatch with user's mental model (logic, user flow)</li>
+							<li>confusing information hierarchy</li>
+							<li>bad default examples</li>
+							<li>inconsistency in the interface design</li>
+						</ul>
+							<br />
+							<br />
+							<br />
+							these are called <a href="http://www.nngroup.com/articles/ten-usability-heuristics/"><u>heuristics</u></a>
+						</h3>
+					</section>
+					<section data-background-transition="slide" data-background="imgs/stickies.jpg" style="background: #666666">
+						<!-- user flow / design bug image -->
+						<h3>heur-wha?</h3>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>storytime...</h2>
+					</section>
+					<section data-background-transition="slide" data-background="imgs/user_obs.jpg">
+						<h3></h3>
+					</section>
+					<section data-background-transition="slide" data-background="imgs/sketches.gif">
+						<h3></h3>
+					</section>
+					<section data-background-transition="slide" data-background="imgs/bad_bug.png">
+						<h3></h3>
+					</section>
+					<section >
+						<h3>bug: "the background should be white."</h3>
+						<br /> <br />
+						<h3>...</h3>
+					</section>
+					<section >
+						<h2>why?</h2>
+					</section>
+					<section data-background-transition="slide" data-background="imgs/Powerpoint-Edit-Theme.png" style="background: #666666">
+						<h3>the software had replaced <u><em>powerpoint</u></em></h3>
+						<br /> <br />
+						<h3>the users were <em>actually</em> trying to do <u>layout, design, customization</u></h3>
+					</section>
+					<section >
+						<h3>better bug/enhancement: "users need the ability to customize"</h3>
+						<h3>bug 2: "change to a better default background color - such as white"</h3>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>ok, i think i get it, so what do i do?</h3><br /><br />
+						<h3>how do I know it's a bug?</h3>
+					</section>
+					<section>
+						<h3>if you think something is broken, try once or twice more to do the same thing that lead to the bug in the first place</h3>
+					</section>
+					<section>
+						<h3>have another person try the same thing.</h3>
+					</section>
+					<section>
+						<h3>talk about what you expected vs what happened.</h3>
+					</section>
+					<section>
+						<h3>if the issue happens consistently, file a bug</h3>
+					</section>
+					<section>
+						<h3>most <u><em>ux bugs</em></u> result from a mismatch in expectations.
+						<br /><br />
+						e.g. the "white" background issue.</h3>
+					</section>
+					<section>
+						<h3>when assessing what feels wrong, think about:
+						<br /><br />
+						<ul>
+							<li>what you/the user expected</li>
+							<li>what you/the user was trying/intending to do</li>
+							<li>the overall goal/purpose/context</li>
+						</ul>
+						<br /><br />
+						include that information in the bug report!
+						</h3>
+					</section>
+				</section>
+
+				<section>
+					<section data-background-transition="slide" data-background="imgs/stickies.jpg" style="background: #666666">
+						<h1>thank you!</h1>
+					</section>
+					<section data-background-transition="slide" data-background="imgs/stickies.jpg" style="background: #666666">
+						<h2>georgia bullen</h2>
+						<h3>open technology institute</h3>
+						<h3>georgia {@} opentechinstitute {.} org</h3>
+						<h3>@georgiamoon</h3>
+					</section>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="presentations/tools/reveal.js-master/lib/js/head.min.js"></script>
+		<script src="presentations/tools/reveal.js-master/js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				center: true,
+				// rtl: true,
+
+				transition: 'linear',
+				// transitionSpeed: 'slow',
+				// backgroundTransition: 'slide'
+			});
+
+		</script>
+
+	</body>
+</html>
